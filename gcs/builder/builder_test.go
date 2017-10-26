@@ -9,13 +9,13 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil"
-	"github.com/ltcsuite/ltcutil/gcs"
-	"github.com/ltcsuite/ltcutil/gcs/builder"
+	"github.com/bitbandi/luxd/chaincfg"
+	"github.com/bitbandi/luxd/chaincfg/chainhash"
+	"github.com/bitbandi/luxd/txscript"
+	"github.com/bitbandi/luxd/wire"
+	"github.com/bitbandi/luxutil"
+	"github.com/bitbandi/luxutil/gcs"
+	"github.com/bitbandi/luxutil/gcs/builder"
 )
 
 var (
@@ -79,8 +79,8 @@ func TestUseBlockHash(t *testing.T) {
 		Index: 4321,
 	}
 
-	// ltcutil.Address
-	addr, err := ltcutil.DecodeAddress(testAddr, &chaincfg.MainNetParams)
+	// luxutil.Address
+	addr, err := luxutil.DecodeAddress(testAddr, &chaincfg.MainNetParams)
 	if err != nil {
 		t.Fatalf("Address decode failed: %s", err.Error())
 	}

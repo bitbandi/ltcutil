@@ -2,16 +2,16 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil
+package luxutil
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcutil/base58"
+	"github.com/bitbandi/luxd/btcec"
+	"github.com/bitbandi/luxd/chaincfg"
+	"github.com/bitbandi/luxd/chaincfg/chainhash"
+	"github.com/bitbandi/luxutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

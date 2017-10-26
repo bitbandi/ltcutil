@@ -9,10 +9,10 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil/gcs"
+	"github.com/bitbandi/luxd/chaincfg/chainhash"
+	"github.com/bitbandi/luxd/txscript"
+	"github.com/bitbandi/luxd/wire"
+	"github.com/bitbandi/luxutil/gcs"
 )
 
 // DefaultP is the default collision probability (2^-20)

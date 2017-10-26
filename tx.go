@@ -2,14 +2,14 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil
+package luxutil
 
 import (
 	"bytes"
 	"io"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/bitbandi/luxd/chaincfg/chainhash"
+	"github.com/bitbandi/luxd/wire"
 )
 
 // TxIndexUnknown is the value returned for a transaction index that is unknown.

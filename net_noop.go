@@ -4,7 +4,7 @@
 
 // +build appengine
 
-package ltcutil
+package luxutil
 
 import (
 	"net"

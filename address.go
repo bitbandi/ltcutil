@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil
+package luxutil
 
 import (
 	"bytes"
@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	"github.com/btcsuite/golangcrypto/ripemd160"
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcutil/base58"
-	"github.com/ltcsuite/ltcutil/bech32"
+	"github.com/bitbandi/luxd/btcec"
+	"github.com/bitbandi/luxd/chaincfg"
+	"github.com/bitbandi/luxutil/base58"
+	"github.com/bitbandi/luxutil/bech32"
 )
 
 // UnsupportedWitnessVerError describes an error where a segwit address being
